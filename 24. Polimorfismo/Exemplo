@@ -1,0 +1,5 @@
+Gerente gerente = new Gerente();
+Funcionario funcionarios = gerente;
+funcionario.salario = 5000;
+
+System.out.println(funcionario.bonificar());
